@@ -53,6 +53,7 @@ body {
 .content p {
   font-family: "Roboto", serif;
   font-size: 130%;
+  color: #fa77e8;
   
 }
 
@@ -70,7 +71,7 @@ body {
 }
 
 .content a {
-  color: #4c4a6c;
+  color: #fa77e8;
   font-weight: 600;
   text-decoration: none;
 }
@@ -102,7 +103,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #262536;
+  background-color: #782e4b;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -112,7 +113,7 @@ div.content {
 .sidebar a {
   font-family: "Playfair Display", serif;
   display: block;
-  color: #d3d3da;
+  color: #c3de81;
   padding: 16px;
   padding-right: 30px;
   text-decoration: none;
@@ -123,7 +124,7 @@ div.content {
 #colophon a {
   font-family: "Playfair Display", serif;
   font-size: 100%;
-  color: #d3d3da;
+  color: #c3de81;
   display: block;
   padding: 0px;
   padding-top: 0;
