@@ -1,5 +1,5 @@
 body {
-	background-color: #f1f1f9;
+	background-color: #f2f0ba;
 	margin: 0;
   	padding: 0;
 }
@@ -19,7 +19,7 @@ body {
 .sidebar h2 {
   font-family: "Playfair Display", serif;
   font-size: 150%;
-  color: #d3d3da;
+  color: #c3de81;
   display: block;
   padding: 16px;
   margin: 0;
@@ -30,7 +30,7 @@ body {
 
 .sidebar h3{
   font-family: "Playfair Display", serif;
-  color: #d3d3da;
+  color: #782e4b;
   display: block;
   padding: 16px;
   margin: 0;
