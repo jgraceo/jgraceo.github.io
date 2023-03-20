@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar h1 {
-  font-family: "IBM Plex", sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 350%;
   color: #fa77e8;
   display: block;
@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar h2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 150%;
   color: #c3de81;
   display: block;
@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar h3{
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   color: #c3de81;
   display: block;
   padding: 16px;
@@ -43,22 +43,22 @@ body {
 }
 
 .content h1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .content h2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .content p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 130%;
   color: #fa77e8;
   
 }
 
 .content li {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 130%;  
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 #footer p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   text-align: center;
 }
 
@@ -111,7 +111,7 @@ div.content {
 
 /* Sidebar links */
 .sidebar a {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   display: block;
   color: #c3de81;
   padding: 16px;
@@ -122,7 +122,7 @@ div.content {
 }
 
 #colophon a {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 100%;
   color: #c3de81;
   display: block;
