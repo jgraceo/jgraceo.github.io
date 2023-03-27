@@ -6,10 +6,10 @@ body {
 
 .sidebar h1 {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 350%;
+  font-size: 100%;
   color: #fa77e8;
   display: block;
-  padding: 16px;
+  padding: 10px;
   padding-top: 0;
   margin:0;
   font-weight: 600;
@@ -18,28 +18,18 @@ body {
 
 .sidebar h2 {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 150%;
+  font-size: 50%;
   color: #c3de81;
   display: block;
-  padding: 16px;
+  padding: 10px;
   margin: 0;
   font-weight: 400;
   font-style: italic;
   text-align: center;
 }
 
-.sidebar h3{
-  font-family: "Lucida Console", Monaco, monospace;
-  color: #c3de81;
-  display: block;
-  padding: 16px;
-  margin: 0;
-  font-weight: 400;
-  text-align: center;
-}
-
 #colophon {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .content h1 {
@@ -54,8 +44,13 @@ body {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 130%;
   color: #fa77e8;
-  
+  line-height: 1.5;
 }
+  
+.emph {font-size: 130%;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-style: oblique;
+	color: #d2b72e;}
 
 .content li {
   font-family: "Lucida Console", Monaco, monospace;
@@ -90,36 +85,41 @@ body {
 /* LAYOUT STUFF */
 
 /* Page content. The content margin-left must match the sidebar width */
+
 div.content {
-  margin-left: 350px;    /* <--- CHANGE US TOGETHER*/
-  padding-top: 75px;
-  padding-left: 25px;
-  padding-right: 16px;
-  height: 1000px;
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-left: 10px;
+padding-right: 10px;
+height: 1000px;
 }
 
  /* The side navigation menu */
 .sidebar {
+width: 100%;
+height: auto;
   margin: 0;
-  padding: 0;
-  width: 350px;          /* <--- CHANGE US TOGETHER */
+  padding: 0;        /* <--- CHANGE US TOGETHER */
   background-color: #782e4b;
-  position: fixed;
-  height: 100%;
+  position: relative;
   overflow: auto;
 }
 
 /* Sidebar links */
+
 .sidebar a {
-  font-family: "Lucida Console", Monaco, monospace;
+ font-family: "Lucida Console", Monaco, monospace;
   display: block;
   color: #c3de81;
-  padding: 16px;
-  padding-right: 30px;
+  padding: 13px;
+  padding-top: 10px;
   text-decoration: none;
-  text-align: right;
-  font-size: 125%;
+  font-size: 90%;
+    text-align: center;
+     float: left;
 }
+
 
 #colophon a {
   font-family: "Lucida Console", Monaco, monospace;
@@ -134,9 +134,13 @@ div.content {
 }
 
 /* Active/current link */
-.sidebar a.active {
+/*.sidebar a.active {
   background-color: #782e4b;
   color: #c3de81;
+}*/
+.sidebar a.active {
+  background-color: #ae3f5f;
+  color: #f2f0ba;
 }
 
 /* Links on mouse-over */
