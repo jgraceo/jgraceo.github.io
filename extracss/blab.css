@@ -1,5 +1,5 @@
 body {
-	background-color: #f2f0ba;
+	background-color: white;
 	margin: 0;
   	padding: 0;
 }
@@ -7,7 +7,7 @@ body {
 .homebar h1 {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 100%;
-  color: #fa77e8;
+  color: #93b1dc;
   display: block;
   padding: 10px;
   padding-top: 0;
@@ -19,7 +19,7 @@ body {
 .homebar h2 {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 50%;
-  color: #c3de81;
+  color: white;
   display: block;
   padding: 10px;
   margin: 0;
@@ -44,14 +44,14 @@ body {
 .content p {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 130%;
-  color: #fa77e8;
+  color: #93b1dc;
   line-height: 1.5;
 }
   
 .emph {font-size: 130%;
     font-family: "Lucida Console", Monaco, monospace;
     font-style: oblique;
-	color: #d2b72e;}
+	color: #ece26a;}
 
 .content li {
   font-family: "Lucida Console", Monaco, monospace;
@@ -67,7 +67,7 @@ body {
 }
 
 .content a {
-  color: #fa77e8;
+  color: #ece26a;
   font-weight: 600;
   text-decoration: none;
 }
@@ -102,7 +102,7 @@ width: 100%;
 height: auto;
   margin: 0px;
   padding: 0px;        /* <--- CHANGE US TOGETHER */
-  background-color: #782e4b;
+  background-color: #1d3677;
   position: relative;
   overflow: auto;
 }
@@ -112,7 +112,7 @@ height: auto;
 .homebar a {
  font-family: "Lucida Console", Monaco, monospace;
   display: block;
-  color: #c3de81;
+  color: #ece26a;
   padding: 14px;
   padding-top: 10px;
   text-decoration: none;
@@ -125,7 +125,7 @@ height: auto;
 #colophon a {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 100%;
-  color: #c3de81;
+  color: white;
   display: block;
   padding: 0px;
   padding-top: 0;
@@ -136,19 +136,19 @@ height: auto;
 
 /* Active/current link */
 .homebar a.active {
-  background-color: #ae3f5f;
-  color: #f2f0ba;
+  background-color: #97cddb;
+  color: white;
 }
 
 /* Links on mouse-over */
 .homebar a:hover:not(.active) {
-  background-color: #ae3f5f;
-  color: #f2f0ba;
+  background-color: #97cddb;
+  color: white;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
-  color: #f2f0ba;
+  background-color: #0f6300;
+  color: white;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
