@@ -77,6 +77,13 @@ body {
   text-align: center;
 }
 
+#karl {
+position: absolute; 
+right: 10px;
+top: 10px;
+background-color: #c98cff;
+}
+
 #footer {
   padding-top: 0px;
   padding-left: 0px;
@@ -132,6 +139,11 @@ height: auto;
   margin:0;
   font-weight: 600;
   text-align: center;
+}
+
+#karl a {
+float: left;
+align-content: right;
 }
 
 /* Active/current link */
