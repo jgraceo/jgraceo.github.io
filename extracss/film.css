@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+}
+
+/* homebar text*/
+.homebar h1 {
+  color: white;
+}
+
+.homebar h2 {
+  color: #ffea7a;
+}
+
+.content p {
+  color: white;
+}
+  
+.emph {
+	color: #ece26a;}
+
+.content a {
+  color: #e9cfa2;
+}
+
+.homebar {
+  background-color: #700200;
+}
+
+.homebar a {
+  color: #ffea7a;
+}
+
+#colophon a {
+  color: #ffea7a;
+}
+
+.homebar a.active {
+  background-color: white;
+  color: red; /* change this and next to same*/
+} 
+
+.homebar a:hover:not(.active) {
+  background-color: white;
+  color: red; /* change this and above to same*/
+}
+
+#colophon a:hover:not(.active) {
+  background-color: white;
+  color: red;
+}

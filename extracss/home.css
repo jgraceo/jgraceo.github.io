@@ -1,0 +1,50 @@
+body {
+	background-color: #ffeff3;
+}
+
+/* homebar text*/
+.homebar h1 {
+  color: #f5dea8;
+}
+
+.homebar h2 {
+  color: #2b2209;
+}
+
+.content p {
+  color: #ff7ca1;
+}
+  
+.emph {
+	color: #ece26a;}
+
+.content a {
+  color: #e9cfa2;
+}
+
+.homebar {
+  background-color: #596949;
+}
+
+.homebar a {
+  color: #2b2209;
+}
+
+#colophon a {
+  color: #993c4c;
+}
+
+.homebar a.active {
+  background-color: #e7e2e2;
+  color: #bd8897; /* change this and next to same*/
+} 
+
+.homebar a:hover:not(.active) {
+  background-color: #e7e2e2;
+  color: #bd8897; /* change this and above to same*/
+}
+
+#colophon a:hover:not(.active) {
+  background-color: #e7e2e2;
+  color: #bd8897;
+}

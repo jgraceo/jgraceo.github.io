@@ -1,0 +1,51 @@
+body {
+	background-color: #e4f7ff;
+}
+
+.homebar h1 {
+  color: white;
+}
+
+.homebar h2 {
+  color: #77bd77;
+}
+
+.content p {
+  color: #c98cff;
+}
+  
+.emph {
+	color: #ece26a;}
+
+.content a {
+  color: #ece26a;
+}
+
+.homebar {  
+  background-color: #7a5fa0;
+}
+
+.homebar a {
+  color: #77bd77;
+}
+
+#colophon a {
+  color: #77bd77;
+}
+
+/* Active/current link */
+.homebar a.active {
+  background-color: #6a4484;
+  color: #f5dea8;
+}
+
+/* Links on mouse-over */
+.homebar a:hover:not(.active) {
+  background-color: #6a4484;
+  color: #f5dea8;
+}
+
+#colophon a:hover:not(.active) {
+  background-color: #6a4484;
+  color: #afb8c4;
+}

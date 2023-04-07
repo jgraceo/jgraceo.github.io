@@ -1,197 +1,49 @@
 body {
 	background-color: white;
-	margin: 0;
-  	padding: 0;
 }
 
 .homebar h1 {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 100%;
   color: #93b1dc;
-  display: block;
-  padding: 10px;
-  padding-top: 0;
-  margin:0;
-  font-weight: 600;
-  text-align: center;
 }
 
 .homebar h2 {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 50%;
-  color: white;
-  display: block;
-  padding: 10px;
-  margin: 0;
-  font-weight: 400;
-  font-style: italic;
-  text-align: center;
-}
-
-#colophon {
-    padding-top: 4px;
-    padding-bottom: 0px;
-}
-
-.content h1 {
-  font-family: "Lucida Console", Monaco, monospace;
-}
-
-.content h2 {
-  font-family: "Lucida Console", Monaco, monospace;
+  color: #ece26a;
 }
 
 .content p {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 130%;
   color: #93b1dc;
-  line-height: 1.5;
 }
   
-.emph {font-size: 130%;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-style: oblique;
+.emph {
 	color: #ece26a;}
-
-.content li {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 130%;  
-}
-
-.long li {
-  margin-bottom: 15px;  
-}
-
-.content p + ul {
-  margin-top: -15px;
-}
 
 .content a {
   color: #ece26a;
-  font-weight: 600;
-  text-decoration: none;
 }
 
-#footer p {
-  font-family: "Lucida Console", Monaco, monospace;
-  text-align: center;
-}
-
-#karl {
-position: absolute; 
-right: 10px;
-top: 10px;
-background-color: #c98cff;
-}
-
-#footer {
-  padding-top: 0px;
-  padding-left: 0px;
-}
-
-
-/* LAYOUT STUFF */
-
-/* Page content. The content margin-left must match the sidebar width */
-
-div.content {
-margin-left: 10px;
-margin-right: 10px;
-padding-top: 0px;
-padding-left: 10px;
-padding-right: 10px;
-height: 1000px;
-}
-
- /* The side navigation menu */
 .homebar {
-width: 100%;
-height: auto;
-  margin: 0px;
-  padding: 0px;        /* <--- CHANGE US TOGETHER */
   background-color: #1d3677;
-  position: relative;
-  overflow: auto;
 }
-
-/* Sidebar links */
 
 .homebar a {
- font-family: "Lucida Console", Monaco, monospace;
-  display: block;
   color: #ece26a;
-  padding: 14px;
-  padding-top: 10px;
-  text-decoration: none;
-  font-size: 90%;
-    text-align: center;
-     float: left;
 }
-
 
 #colophon a {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 100%;
   color: white;
-  display: block;
-  padding: 0px;
-  padding-top: 0;
-  margin:0;
-  font-weight: 600;
-  text-align: center;
 }
 
-#karl a {
-float: left;
-align-content: right;
-}
-
-/* Active/current link */
 .homebar a.active {
   background-color: #97cddb;
   color: white;
 }
 
-/* Links on mouse-over */
 .homebar a:hover:not(.active) {
   background-color: #97cddb;
   color: white;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: #0f6300;
+  background-color: #97cddb;
   color: white;
 }
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .homebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .homebar a {float: left;}
-  div.content {margin-left: 0;}
-  
-  div.content{
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  }
-
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .homebar a {
-    text-align: center;
-    float: none;
-    padding: 0px;
-  }
-  
-  div.content{
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  }
-} 
