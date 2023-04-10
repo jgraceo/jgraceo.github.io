@@ -11,11 +11,20 @@ body {
   color: #ffea7a;
 }
 
+.content h1 {
+  color: #ffea7a;
+}
+
+.content h2 {
+  color: #ffea7a;
+  font-size: 120%;
+}
+
 .content p {
   color: white;
 }
   
-.emph {
+emph {
 	color: #ece26a;}
 
 .content a {

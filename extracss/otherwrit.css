@@ -14,8 +14,8 @@ body {
 .content p {
   color: #ed6b43;
 }
-  
-.emph {
+    
+emph {
 	color: #ece26a;}
 
 .content a {
@@ -45,6 +45,6 @@ body {
 }
 
 #colophon a:hover:not(.active) {
-  background-color: #0f6300;
+  background-color: #f2c9bd;
   color: #ee3608;
 }
