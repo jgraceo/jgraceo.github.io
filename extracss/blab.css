@@ -14,8 +14,12 @@ body {
   color: #93b1dc;
 }
 
+.content h1 {
+  color: #1d3677;
+}
+
 emph {
-	color: #ece26a;}
+	color: #1d3677;}
 
 .content a {
   color: #ece26a;

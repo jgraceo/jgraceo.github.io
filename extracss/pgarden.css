@@ -13,7 +13,17 @@ body {
 .content p {
   color: #fa77e8;
 }
+
+.content h1 {
+  color: #782e4b;
+}
+.content h2 {
+  color: #ae3f5f;
+}
   
+#pgmap {
+text-align: center
+}
 .emph {
 	color: #d2b72e;}
 
@@ -28,7 +38,6 @@ body {
 .homebar a {
   color: #c3de81;
 }
-
 
 #colophon a {
   color: #c3de81;
@@ -45,6 +54,6 @@ body {
 }
 
 #colophon a:hover:not(.active) {
-  background-color: #262536;
+  background-color: #ae3f5f;
   color: #f2f0ba;
 }
