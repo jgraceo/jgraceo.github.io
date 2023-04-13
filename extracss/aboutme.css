@@ -14,8 +14,17 @@ body {
   color: #c98cff;
 }
   
-.emph {
-	color: #ece26a;}
+emph {
+    font-size: 100%;
+    font-style: normal;
+    color: black;}
+
+note {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 90%;
+    font-style: normal;
+    color: #77bd77;}
+
 
 .content a {
   color: #ece26a;
