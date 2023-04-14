@@ -11,16 +11,24 @@ body {
   color: #ff9a9a;
 }
 
+.content h1 {
+  color: #6b423a;
+}
+
+.content h2 {
+  color: #6b423a;
+}
+
+.content a {
+  color: #ff9a9a;
+}
+
 .content p {
   color: #ed6b43;
 }
     
 emph {
 	color: #ece26a;}
-
-.content a {
-  color: #e9cfa2;
-}
 
 .homebar {
   background-color: #6b423a;

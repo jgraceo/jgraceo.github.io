@@ -10,11 +10,14 @@ body {
 .homebar h2 {
   color: #2b2209;
 }
-
+.content img {
+   margin-right: 20px;
+}
 .content p {
   color: #ff7ca1;
+  margin: inherit;
 }
-  
+
 emph {
 	color: #ece26a;}
 
