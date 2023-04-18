@@ -8,7 +8,7 @@ body {
 }
 
 .homebar h2 {
-  color: #2b2209;
+  color: #572905;
 }
 .content img {
    margin-right: 20px;
@@ -30,7 +30,7 @@ emph {
 }
 
 .homebar a {
-  color: #2b2209;
+  color: #572905;
 }
 
 #colophon a {
@@ -38,16 +38,16 @@ emph {
 }
 
 .homebar a.active {
-  background-color: #e7e2e2;
-  color: #bd8897; /* change this and next to same*/
+  background-color: #b2c4b1;
+  color: #b41e49; /* change this and next to same*/
 } 
 
 .homebar a:hover:not(.active) {
-  background-color: #e7e2e2;
-  color: #bd8897; /* change this and above to same*/
+  background-color: #b2c4b1;
+  color: #b41e49; /* change this and above to same*/
 }
 
 #colophon a:hover:not(.active) {
-  background-color: #e7e2e2;
-  color: #bd8897;
+  background-color: #b2c4b1;
+  color: #b41e49;
 }

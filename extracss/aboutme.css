@@ -19,6 +19,11 @@ emph {
     font-style: normal;
     color: black;}
 
+img{
+    padding: inherit;
+}
+
+
 note {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 90%;

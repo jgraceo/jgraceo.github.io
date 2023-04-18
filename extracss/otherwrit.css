@@ -12,6 +12,8 @@ body {
 }
 
 .content h1 {
+  font-size: 140%;
+  line-height: 1.5;
   color: #6b423a;
 }
 
