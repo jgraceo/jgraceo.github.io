@@ -25,10 +25,11 @@ body {
 }
 
 emph {
-	color: #ece26a;}
+	color: #ffea7a;
+    font-size: 100%}
 
 .content a {
-  color: #e9cfa2;
+  color: #ffea7a;
 }
 
 .homebar {

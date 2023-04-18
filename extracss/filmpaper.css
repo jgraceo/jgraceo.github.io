@@ -1,0 +1,83 @@
+body {
+	background-color: black;
+}
+
+/* homebar text*/
+.homebar h1 {
+  color: white;
+}
+
+.homebar h2 {
+  color: #ffea7a;
+}
+
+.content h1 {
+  color: #ffea7a;
+}
+
+.content h2 {
+  color: #ffea7a;
+  font-size: 120%;
+}
+
+.content p {
+  color: white;
+    text-indent:50px;
+}
+
+.content pcontinue {
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 115%;
+  line-height: 1.5;
+}
+
+.content stillnote {
+  color: #ffea7a;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 90%;
+  line-height: 1.5;
+  align-content: center;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+emph {
+	color: #ffea7a;
+    font-size: 100%}
+
+.content a {
+  color: #e9cfa2;
+}
+
+.homebar {
+  background-color: #700200;
+}
+
+.homebar a {
+  color: #ffea7a;
+}
+
+#colophon a {
+  color: #ffea7a;
+}
+
+.homebar a.active {
+  background-color: white;
+  color: red; /* change this and next to same*/
+} 
+
+.homebar a:hover:not(.active) {
+  background-color: white;
+  color: red; /* change this and above to same*/
+}
+
+#colophon a:hover:not(.active) {
+  background-color: white;
+  color: red;
+}
