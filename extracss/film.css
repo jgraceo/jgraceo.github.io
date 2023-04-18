@@ -12,12 +12,19 @@ body {
 }
 
 .content h1 {
-  color: #ffea7a;
+  color: #ff5757;
+}
+
+.content h3 {
+  color: #ff5757;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 1.5;
 }
 
 .content h2 {
   color: #ffea7a;
   font-size: 120%;
+ line-height: 1.5;
 }
 
 .content p {
@@ -29,7 +36,7 @@ emph {
     font-size: 100%}
 
 .content a {
-  color: #ffea7a;
+  color: #ff5757;
 }
 
 .homebar {

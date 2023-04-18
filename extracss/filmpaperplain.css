@@ -13,26 +13,27 @@ body {
 
 .content h1 {
   color: black;
-  font-family: "Times New Roman", serif
+  font-family: "Times New Roman", serif;
+  line-height: 1.5;
 }
 
 .content h2 {
   color: black;
   font-size: 120%;
-  font-family: "Times New Roman", serif
+  font-family: "Times New Roman", serif;
 }
 
 .content p {
   color: black;
   text-indent:50px;
   font-family: "Times New Roman", serif;
-    font-size: 130%;
+    font-size: 140%;
 }
 
 .content pcontinue {
   color: black;
   font-family: "Times New Roman", serif;
-  font-size: 130%;
+  font-size: 140%;
   line-height: 1.5;
 }
 
