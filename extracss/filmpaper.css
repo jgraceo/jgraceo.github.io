@@ -8,16 +8,16 @@ body {
 }
 
 .homebar h2 {
-  color: #ffea7a;
+  color: #ffda7c;
 }
 
 .content h1 {
-  color: #ffea7a;
+  color: #ffda7c;
   line-height: 1.5;
 }
 
 .content h2 {
-  color: #ffea7a;
+  color: #ffda7c;
   font-size: 120%;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .content stillnote {
-  color: #ffea7a;
+  color: #ffda7c;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 90%;
   line-height: 1.5;
@@ -49,7 +49,7 @@ img {
 }
 
 emph {
-	color: #ffea7a;
+	color: #ffda7c;
     font-size: 100%}
 
 .content a {
@@ -61,11 +61,11 @@ emph {
 }
 
 .homebar a {
-  color: #ffea7a;
+  color: #ffda7c;
 }
 
 #colophon a {
-  color: #ffea7a;
+  color: #ffda7c;
 }
 
 .homebar a.active {

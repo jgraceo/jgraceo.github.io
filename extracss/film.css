@@ -8,7 +8,7 @@ body {
 }
 
 .homebar h2 {
-  color: #ffea7a;
+  color: #ffda7c;
 }
 
 .content h1 {
@@ -22,7 +22,7 @@ body {
 }
 
 .content h2 {
-  color: #ffea7a;
+  color: #ffda7c;
   font-size: 120%;
  line-height: 1.5;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 emph {
-	color: #ffea7a;
+	color: #ffda7c;
     font-size: 100%}
 
 .content a {
@@ -44,11 +44,11 @@ emph {
 }
 
 .homebar a {
-  color: #ffea7a;
+  color: #ffda7c;
 }
 
 #colophon a {
-  color: #ffea7a;
+  color: #ffda7c;
 }
 
 .homebar a.active {
