@@ -1,0 +1,67 @@
+body {
+	background-color: #860e0e;
+}
+
+/* homebar text*/
+.homebar h1 {
+  color: #4f077b;
+}
+
+.homebar h2 {
+  color: white;
+}
+
+.content h1 {
+  color: black;
+}
+
+.content h2 {
+  color: black;
+  font-size: 170%;
+ line-height: 1.5;
+}
+
+.content h3 {
+  color: black;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 1.5;
+}
+
+.content p {
+  color: white;
+}
+
+emph {
+	color: #4f077b;
+    font-size: 100%}
+
+.content a {
+  color: #860e0e;
+}
+
+.homebar {
+  background-color: black;
+}
+
+.homebar a {
+  color: white;
+}
+
+#colophon a {
+  color: #4f077b;
+}
+
+.homebar a.active {
+  background-color: #4f077b;
+  color: black; /* change this and next to same*/
+} 
+
+.homebar a:hover:not(.active) {
+  background-color: #4f077b;
+  color: black; /* change this and above to same*/
+}
+
+#colophon a:hover:not(.active) {
+  background-color: #4f077b;
+  color: black;
+}
