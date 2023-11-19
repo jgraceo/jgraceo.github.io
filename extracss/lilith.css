@@ -18,14 +18,15 @@ body {
 .content h2 {
   color: black;
   font-size: 170%;
- line-height: 1.5;
+ line-height: .75;
     font-weight: 5000
 }
 
 .content h3 {
   color: black;
   font-family: "Lucida Console", Monaco, monospace;
-  line-height: 1.5;
+    font-size:120%;
+    line-height: .5;
 }
 
 .content p {
