@@ -33,6 +33,11 @@ body {
   color: white;
 }
 
+.content h2 {
+  color: white;
+}
+
+
 emph {
 	color: black;
     font-size: 100%}
