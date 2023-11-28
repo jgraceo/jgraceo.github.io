@@ -42,7 +42,15 @@ input[type=text] {
   box-sizing: border-box;
   border: 2px solid #FFF !important;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
+
+tw-passage a {
+	color: #ffce5b;
+	font-weight: 700;
+	text-decoration: none;
+}
+tw-passage a:hover {
+	color: #4f077b;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
 window.processInputElements = function () {
     $('input[data-varname]').on('change', function () {
         var varName = $(this).attr('data-varname');
@@ -157,13 +165,13 @@ Teach me how to (cycling-link: &quot;talk&quot;, &quot;scream&quot;, &quot;reach
 
 Below you will find the works used to create &quot;Lilith, I was Told.&quot; I am unable to reproduce the entire poem, but have included the section remixed in addition to citation information. Poems that are available online have been linked; click on the title to see the full text and then click the back button on your browser to return to Lilith&#39;s Shrine.
 
-(link: &quot;Body&#39;s Beauty&quot;)[(goto-url: &#39;https://hellopoetry.com/poem/4765/bodys-beauty/&#39;)]
+&lt;a href=&quot;https://hellopoetry.com/poem/4765/bodys-beauty/&quot; target=&quot;_blank&quot;&gt;Body&#39;s Beauty&lt;/a&gt;
 By Dante Gabriel Rossetti (1867)
 
 &lt;span class=&quot;snip&quot;&gt;&quot;Of Adam&#39;s first wife, Lilith, it is told
 (The witch he loved before the gift of Eve,)&quot;&lt;/span&gt;
 
-(link: &quot;Lilith&quot;)[(goto-url: &#39;https://www.jstor.org/stable/40358614&#39;)]
+&lt;a href=&quot;https://www.jstor.org/stable/40358614&quot; target=&quot;_blank&quot;&gt;Lilith&lt;/a&gt;
 By Maggie Jaffee (1997)
 
 &lt;span class=&quot;snip&quot;&gt;&quot;owl-green eyes, bloody-red gash of her mouth—
@@ -181,7 +189,7 @@ From: &quot;Which Lilith?&quot; Edited by Enid Dame, Lilly Rivlin, and Henny Wen
 
 &lt;span class=&quot;snip&quot;&gt;&quot;She smiles to bite, she kisses to devour!&quot;&lt;/span&gt;
 
-(link: &quot;Guilt and Knitting&quot;)[(goto-url: &#39;https://elanaklugman.com/guilt-an-knitting/&#39;)]
+&lt;a href=&quot;https://elanaklugman.com/guilt-an-knitting/&quot; target=&quot;_blank&quot;&gt; Guilt and Knitting&lt;/a&gt;
 By Elana Klugman (1998)
 
 &lt;span class=&quot;snip&quot;&gt;&quot;wearing purple silks
@@ -223,7 +231,7 @@ Your arms are mud-bespattered.&quot;&lt;/span&gt;
 [[Madison]]
 [[Grace]]
 
-When someone from Lilith’s Shrine decides to submit their work, their writing is recorded and displayed on the website that houses this exhibit. This page is updated regularly. Click (link: &quot;here&quot;)[(goto-url: &#39;https://jgraceo.github.io/lilithresponses.html&#39;)]  to view every response submitted.
+When someone from Lilith’s Shrine decides to submit their work, their writing is recorded and displayed on the website that houses this exhibit. This page is updated regularly. Click &lt;a href=&quot;https://jgraceo.github.io/lilithresponses.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; to view every response submitted.
 
 You have the option to contribute too!
 
@@ -276,7 +284,7 @@ Interested in having your writing displayed among the other responses on the web
  		window.location.href = &quot;mailto:persephonesgarden77@gmail.com?subject=Lilith&#39;s Shrine&amp;body=&quot; + body;}
 &lt;/script&gt;Want to learn more about Lilith? View sources and artifacts connected to her [[here-&gt;Source Page]].
 
-Want to return to the website you started at? Click (link: &quot;here&quot;)[(goto-url: &#39;https://jgraceo.github.io/lilith.html&#39;)].</tw-passagedata><tw-passagedata pid="7" name="Poem" tags="" position="550,500" size="100,100">[(if: $Q2Answer is 0)[(set: $Q2Answer to &quot;evil&quot;)(set: $notQ2Answer to 1)](if: $Q4Answer is 0)[(set: $Q4Answer to &quot;A Tale about Lilith&quot;)(set: $notQ4Answer to 1)](if: $Q6Answer is 0)[(set: $Q6Answer to &quot;sinister&quot;)(set: $notQ6Answer to 1)](if: $Q8Answer is 0)[(set: $Q8Answer to &quot;human&quot;)(set: $notQ8Answer to 1)]]&lt;span class=&quot;head&quot;&gt;(cycling-link: &quot;Lilith, I was Told&quot;, $Q4Answer, &quot;Rumors about Lilith&quot;, &quot;What I Know about Lilith&quot;)&lt;/span&gt;
+Want to return to the website you started at? Click &lt;a href=&quot;https://jgraceo.github.io/lilith.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="7" name="Poem" tags="" position="550,500" size="100,100">[(if: $Q2Answer is 0)[(set: $Q2Answer to &quot;evil&quot;)(set: $notQ2Answer to 1)](if: $Q4Answer is 0)[(set: $Q4Answer to &quot;A Tale about Lilith&quot;)(set: $notQ4Answer to 1)](if: $Q6Answer is 0)[(set: $Q6Answer to &quot;sinister&quot;)(set: $notQ6Answer to 1)](if: $Q8Answer is 0)[(set: $Q8Answer to &quot;human&quot;)(set: $notQ8Answer to 1)]]&lt;span class=&quot;head&quot;&gt;(cycling-link: &quot;Lilith, I was Told&quot;, $Q4Answer, &quot;Rumors about Lilith&quot;, &quot;What I Know about Lilith&quot;)&lt;/span&gt;
 
 Lilith,
 I was told you were the (cycling-link: &quot;witch&quot;, $Q8Answer, &quot;angel&quot;, &quot;woman&quot;, &quot;demon&quot;) Adam loved before Eve, 
@@ -402,10 +410,10 @@ Lilith and Adam were both made from the earth by God. They were free to roam Ede
 
 In this space, you will explore Lilith and consider her relevance to you. Before diving into the reflection portion of this exhibit, you may want to learn more about the person whose story you are trying to envision and retell. Below is a very brief description of Lilith and her history. 
 
-Note: Text that is bolded and black can be interacted with. Some of this type of text will take you to external links. Press the back arrow in your browser to return to Lilith’s Shrine.
+Note: Text that is bolded can be interacted with. Some of this type of text will take you to external links. External links are in &#39;&#39;(text-colour:#ffce5b)[yellow]&#39;&#39;. Interactive text within the exhibit is in &#39;&#39;(text-colour:black)[black]&#39;&#39;.
 
 &lt;span class=&quot;head2&quot;&gt;Meet Lilith&lt;/span&gt;
-Wild red hair, shadows and snakes, a seductive laugh: these images may flash through your mind when you hear the name Lilith. Lilith is a female figure from Jewish midrash—a type of biblical interpretation—most known for her role as Adam’s first wife. While never mentioned by name in the tale of Genesis, Lilith’s time in the Garden of Eden is told in the //(link: &quot;Alphabet of Ben Sira&quot;)[(goto-url: &#39;https://www.bensira.org/introduction.html&#39;)] //and later retold in //(link: &quot;The Legends of the Jews&quot;)[(goto-url: &#39;https://www.gutenberg.org/ebooks/1493&#39;)] // by Louis Ginzberg. The story goes like this…
+Wild red hair, shadows and snakes, a seductive laugh: these images may flash through your mind when you hear the name Lilith. Lilith is a female figure from Jewish midrash—a type of biblical interpretation—most known for her role as Adam’s first wife. While never mentioned by name in the tale of Genesis, Lilith’s time in the Garden of Eden is told in the &lt;a href=&quot;https://www.bensira.org/introduction.html&quot;; target=&quot;_blank&quot;&gt;//Alphabet of Ben Sira//&lt;/a&gt; and later retold in &lt;a href=&quot;https://www.gutenberg.org/ebooks/1493&quot; target=&quot;_blank&quot;&gt;//The Legends of the Jews//&lt;/a&gt; by Louis Ginzberg. The story goes like this…
 
 
 &lt;span class=&quot;head2&quot;&gt;Lilith in the Garden&lt;/span&gt;
@@ -430,11 +438,11 @@ Despite our distance from the second wave of feminism, Lilith still holds releva
 
 There is much more to say about Lilith; this was only a short summary of her history. If you want to learn more before you continue, consider viewing some external sources below.
 
-//(link: &quot;Lilith Through the Times&quot;)[(goto-url: &#39;https://skhadka.sites.gettysburg.edu/Lilith/&#39;)] // is an interactive timeline by Shukirti Khadka that will guide you through Lilith’s appearance in text, art, and contemporary culture.
+&lt;a href=&quot;https://skhadka.sites.gettysburg.edu/Lilith/&quot; target=&quot;_blank&quot;&gt;//Lilith Through the Times//&lt;/a&gt; is an interactive timeline by Shukirti Khadka that will guide you through Lilith’s appearance in text, art, and contemporary culture.
 
-//(link: &quot;“Who is Lilith”&quot;)[(goto-url: &#39;https://www.youtube.com/watch?v=n1EKccz4fS0&#39;)] // is an informative video by ESOTERICA that explores Lilith’s origins, it pays specific attention to her Mesopotamian roots.
+&lt;a href=&quot;https://www.youtube.com/watch?v=n1EKccz4fS0&quot; target=&quot;_blank&quot;&gt;“Who is Lilith”&lt;/a&gt; is an informative video by ESOTERICA that explores Lilith’s origins, it pays specific attention to her Mesopotamian roots.
 
-//(link: &quot;“Lilith”&quot;)[(goto-url: &#39;https://jwa.org/encyclopedia/article/lilith&#39;)] // by the Jewish Women’s Archive is a helpful article that synthesizes Lilith’s presence in ancient writing and her more current connection to feminism.
+&lt;a href=&quot;https://jwa.org/encyclopedia/article/lilith&quot; target=&quot;_blank&quot;&gt;“Lilith”&lt;/a&gt; by the Jewish Women’s Archive is a helpful article that synthesizes Lilith’s presence in ancient writing and her more current connection to feminism.
 
 [[I am ready to move on.-&gt;Writing Section]]</tw-passagedata><tw-passagedata pid="13" name="Nicole" tags="" position="550,900" size="100,100">&lt;span class=&quot;head&quot;&gt;Nicole’s Lilith&lt;/span&gt;
 
@@ -559,7 +567,7 @@ Here are all the works I stumbled upon during my research. I haven’t examined 
 &lt;span class=&quot;citation&quot;&gt;&amp;emsp;&amp;emsp;Rossen, Robert. //Lilith//. Columbia Pictures, 1964.&lt;/span&gt;
 &lt;span class=&quot;citation&quot;&gt;&amp;emsp;&amp;emsp;Shely, Joe. //Diablo IV//. Blizzard Entertainment, 2023.&lt;/span&gt;
 
-(link: &quot;Click here to return to the website.&quot;)[(goto-url: &#39;https://jgraceo.github.io/lilith.html&#39;)]</tw-passagedata><tw-passagedata pid="17" name="Grace" tags="" position="50,900" size="100,100">&lt;span class=&quot;head&quot;&gt;Grace’s Lilith&lt;/span&gt;
+&lt;a href=&quot;https://jgraceo.github.io/lilith.html&quot; target=&quot;_blank&quot;&gt;Click here to return to the website.&lt;/a&gt;</tw-passagedata><tw-passagedata pid="17" name="Grace" tags="" position="50,900" size="100,100">&lt;span class=&quot;head&quot;&gt;Grace’s Lilith&lt;/span&gt;
 
 I am the creator of Lilith’s Shrine, and this is my Lilith…
 
