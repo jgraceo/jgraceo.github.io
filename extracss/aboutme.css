@@ -23,13 +23,11 @@ img{
     padding: inherit;
 }
 
-
-note {
+.email {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 90%;
     font-style: normal;
     color: #77bd77;}
-
 
 .content a {
   color: #ece26a;
