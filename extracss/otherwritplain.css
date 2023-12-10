@@ -1,0 +1,93 @@
+body {
+	background-color: #f1eae5;
+}
+
+/* homebar text*/
+.homebar h1 {
+  color: #f5dea8;
+}
+
+.homebar h2 {
+  color: #ff9a9a;
+}
+
+.content h1 {
+  font-size: 200%;
+  line-height: 1.5;
+  color: black;
+  font-family: "Times New Roman", serif;
+}
+
+.content h2 {
+  color: black;
+  font-size: 160%;
+  font-family: "Times New Roman", serif;
+}
+
+.content h3 {
+  color: black;
+  font-size: 180%;
+  font-family: "Times New Roman", serif;
+}
+
+.content h4 {
+  color: black;
+  font-size:85%;
+  line-height: 1.5;
+  font-family: "Times New Roman", serif;
+}
+
+.content h5 {
+  color: darkslategray;
+  font-size:150%;
+  font-family: "Times New Roman", serif;
+}
+
+.content stillnote {
+  color: black;
+  font-family: "Times New Roman", serif;
+  font-size: 90%;
+  line-height: 2;
+  align-content: center;
+}
+
+.content a {
+  color: #ff9a9a;
+}
+
+.content p {
+  color: black;
+  text-indent:50px;
+  font-family: "Times New Roman", serif;
+    font-size: 140%;
+}
+    
+emph {
+	color: #ece26a;}
+
+.homebar {
+  background-color: #6b423a;
+}
+
+.homebar a {
+  color: #ff9a9a;
+}
+
+#colophon a {
+  color: #f5dea8;
+}
+
+.homebar a.active {
+  background-color: #f2c9bd;
+  color: #ee3608; /* change this and next to same*/
+} 
+
+.homebar a:hover:not(.active) {
+  background-color: #f2c9bd;
+  color: #ee3608; /* change this and above to same*/
+}
+
+#colophon a:hover:not(.active) {
+  background-color: #f2c9bd;
+  color: #ee3608;
+}

@@ -12,13 +12,39 @@ body {
 }
 
 .content h1 {
-  font-size: 140%;
+  font-size: 180%;
   line-height: 1.5;
   color: #6b423a;
 }
 
 .content h2 {
   color: #6b423a;
+  font-size: 125%;
+}
+
+.content h3 {
+  color: black;
+  font-size: 120%;
+}
+
+.content h4 {
+  color: black;
+  font-size:85%;
+  line-height: 1.5;
+}
+
+.content h5 {
+  color: darkslategray;
+  font-size:110%;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.content stillnote {
+  color: #6b423a;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 90%;
+  line-height: 2;
+  align-content: center;
 }
 
 .content a {
